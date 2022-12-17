@@ -1,0 +1,30 @@
+.cita-section {
+	color: white;
+	background-color: #FF0000;
+}
+
+.cita-icon {
+	font-size: 5rem;
+	margin-bottom: 20px;
+}
+
+.cita {
+	font-size: 1.2rem;
+	max-width: 800px;
+}
+
+.cita-autor {
+	font-size: 1.5em;
+	color: white;
+	margin-bottom: 0;
+}
+
+@media (max-width: 500px) {
+  blockquote {
+    margin: 0;
+  }
+
+  .cita {
+    font-size: 1em;
+  }
+}

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+    	<meta charset="UTF-8" />
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    	<meta name="description" content="Portfolio personal de Aurora" />
+    	<title>Aurora Canales</title>
+    
+    	<!-- enlace para iconos -->
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" preload>
+    	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" preload>
+       
+        <!--Favicon-->
+        <link rel="icon" type="text/css" href="/imagenes/robot.png">
+
+		<!-- enlaces css -->
+    	<link rel="stylesheet" href="css/base.css" preload>
+    	<link rel="stylesheet" href="css/layout.css" preload>
+    	<link rel="stylesheet" href="css/header-footer.css" preload>
+    	<link rel="stylesheet" href="css/acercade.css" preload>
+    	<link rel="stylesheet" href="css/cita.css" preload>
+    	<link rel="stylesheet" href="css/desarrollo.css" preload>
+    	<link rel="stylesheet" href="css/contacto.css" preload>
+    	<link rel="stylesheet" href="css/proyectos.css" preload>
+	</head>
+  	<body>
+		<header>
+			<div class="column menu-icon-container">
+				<nav class="nav-header">
+					<!--Inicio Menu-->
+					<ul class="nav-menu">
+						<li class="nav-item"><a href="#acercade" class="nav-link">INICIO</a></li>
+            			<li class="nav-item"><a href="#areasdesarrollo" class="nav-link">&Aacute;REAS DESARROLLO</a></li>
+            			<li class="nav-item"><a href="#proyectos" class="nav-link">PROYECTOS EN EJECUCI&Oacute;N</a></li>
+                        <li class="nav-item"><a href="#contacto" class="nav-link selected">CONT&Aacute;CTAME</a></li>
+          			</ul>
+          			<!--Fin Menu-->
+        		</nav>
+        		<button type="button" class="open-menu-btn" ria-controls="sidebar-menu" aria-expanded="false">
+          			Menu <i class="fas fa-bars" aria-hidden="true"></i>
+        		</button>
+      		</div>
+    	</header>
+    	<!--Final Cabecera-->
+
+    	<section class="sidebar-menu" id="sidebar-menu" aria-hidden="true">
+      		<button class="close-menu-btn" aria-label="Cerrar Menú" tabindex="-1">
+        		<i class="fas fa-times" aria-hidden="truuanto0e"></i>
+      		</button>
+      		<h2 class="sidebar-title">Secciones</h2>
+      		<nav>
+        		<!--Inicio Menú navegación-->
+        		<ul class="nav-menu">
+          			<li class="nav-item"><a href="#acercade" class="nav-link" tabindex="-1">INICIO</a></li>
+          			<li class="nav-item"><a href="#areasdesarrollo" class="nav-link" tabindex="-1">&Aacute;REAS DE DESARROLLO</a></li>
+          			<li class="nav-item"><a href="#proyectos" class="nav-link" tabindex="-1">PROYECTOS EN EJECUCI&Oacute;N</a></li>
+          			<li class="nav-item"><a href="#contacto" class="nav-link" tabindex="-1">CONT&Aacute;CTAME</a></li>
+        		</ul>
+        		<!--Fin menú navegación-->
+      		</nav>
+    	</section>
+
+    	<!--ComienzoSobre mí-->
+    	<section class="section about-section" id="acercade">
+   		  <div class="column main-content">
+       		<div class="about-info">
+          			<p class="greeting name">¡Hola! Soy</p>
+          			<h1 class="about-name">Aurora Canales</h1>
+          			<p class="about-description">
+            			Ada Frontend
+          			</p>
+          			<a href="#proyectos" class="button">LO QUE HAGO</a>
+       		  </div>
+       		  <img src="imagenes/aurocana.jpg" alt="Aurora Canales" width="299" class="about-img" />
+      		</div>
+    	</section>
+    	<!--Final Sobre mí-->
+
+    	<!--ComienzoConocimientos-->
+    	<section class="section skills-section" id="areasdesarrollo">
+      		<div class="column content">
+        		<h2 class="section-title">Mis conocimientos</h2>
+        		<p class="skills-description">
+          			Algunos de mis conocimientos, estudios y habilidades.
+        		</p>
+        		<div class="grid skills-grid">
+          			<div class="skill grid-item">
+            			<i class="devicon-html5-plain-wordmark colored skill-icon"></i>
+            			<p class="skill-title">HTML 5</p>
+          			</div>
+          			<div class="skill grid-item">
+            			<i class="devicon-css3-plain-wordmark colored skill-icon"></i>
+            			<p class="skill-title">CSS 3</p>
+          			</div>
+          			<div class="skill grid-item">
+            			<i class="devicon-java-plain-wordmark colored skill-icon"></i>
+            			<p class="skill-title">Java</p>
+          			</div>
+          			<div class="skill grid-item">
+            			<i class="devicon-postgresql-plain-wordmark colored skill-icon"></i>
+            			<p class="skill-title">PostgreSQL</p>
+          			</div>
+          			<div class="skill grid-item">
+            			<i class="devicon-ssh-original-wordmark colored skill-icon"></i>
+            			<p class="skill-title">SSH</p>
+          			</div>
+          			<div class="skill grid-item">
+           				<i class="devicon-gitlab-plain-wordmark colored skill-icon"></i>
+            			<p class="skill-title">GitLab</p>
+          			</div>
+        		</div>
+      		</div>
+    	</section>
+    	<!--Fin Conocimientos-->
+
+    	<!--Comienzo Proyectos-->
+    	<section class="section cita-section">
+      		<div class="column content cita">
+        		<i class="fas fa-quote-right cita-icon"></i>
+        		<blockquote>
+          			<p class="cita">
+            			Si el conocimiento crea problemas, no es a través de la ignorancia que podamos resolverlos.
+          			</p>
+        		</blockquote>
+        		<h2 class="cita-autor">Isaac Asimov</h2>
+      		</div>
+    	</section>
+    
+    
+    	<section class="section project-section" id="proyectos">
+      		<div class="column content">
+        		<h2 class="section-title">Mis proyectos</h2>
+        		<p class="section-description">
+          			Proyectos ejecutados y en proceso de ejecución
+                </p>
+        		<!-- Grilla de projectos -->
+        		<div class="grid projects">
+					<a href="#" target="_blank" rel="noopener noreferrer" class="project">
+						<img src="/imagenes/carpeta.png" alt="Portfolio" class="project-thumb"/>
+          				<p class="project-name">Portfolio</p>
+            		</a>
+            
+            		<a href="#" target="_blank" rel="noopener noreferrer" class="project">
+            			<img src="imagenes/reloj.png" alt="Agenda" class="project-thumb"/>
+          				<p class="project-name">Agenda</p>
+          			</a>
+          
+       	  			<a href="#" target="_blank" rel="noopener noreferrer" class="project">
+   		  				<img src="imagenes/comida.png" alt="Recetario" class="project-thumb"/>
+   		  				<p class="project-name">Recetario</p>
+       	 			</a>
+
+       	  			<a href="#" target="_blank" rel="noopener noreferrer" class="project">
+       	  				<img src="imagenes/password.png" alt="Contrase&ntilde;as" class="project-thumb"/>
+       	  				<p class="project-name">Contrase&ntilde;as</p>
+       	  			</a>
+
+          			<a href="#" target="_blank" rel="noopener noreferrer" class="project">
+            			<img src="imagenes/apps2.png" alt="Aplicaciones M&oacute;viles" class="project-thumb"/>
+            			<p class="project-name">Apps m&oacute;viles</p>
+          			</a>
+
+        		</div>
+        		<!-- Fin Grilla de projectos -->
+      		</div>
+    	</section>
+    	<!-- ##### Fin Secci´ón Projectos ##### -->
+
+    	<!-- ##### Comienzo Secci´ón Contacto ##### -->
+    	<section class="section contact-section" id="contacto">
+      		<div class="column">
+        		<div class="contact">
+          			<section class="contact-column">
+            			<h2 class="section-title">Cont&aacute;ctame</h2>
+            			<p class="section-description">
+              				Estas son mis redes sociales, puedes contactarme por cualquiera de ella.
+            			</p>
+            			<!--links redes sociales-->
+            			<section aria-label="Links de redes sociales">
+              				<ul class="contact-social-links">
+                				<li class="contact-social-item">
+                  					<a href="https://wa.link/kqy36f" class="contact-social-link whatsapp-link" aria-label="WhattsApp" target="_blank">
+                    					<i aria-hidden="true" class="fab fa-whatsapp contact-social-icon"></i>+56 9 8244 7997
+                 					</a>
+                				</li>
+                				<li class="contact-social-item">
+                  					<a href="https://www.linkedin.com/in/aurora-canales-750520214" class="contact-social-link linkedin-link" aria-label="Linkedin" target="_blank">
+                    					<i aria-hidden="true" class="fab fa-linkedin-in contact-social-icon"></i>AuroraCanales
+                  					</a>
+                				</li>
+                                <li class="contact-social-item">
+                  					<a href="https://github.com/aurocana" class="contact-social-link github-link" aria-label="Github" target="_blank">
+                    					<i aria-hidden="true" class="fab fa-github-alt contact-social-icon"></i>AuroCana
+                                    </a>
+                				</li>
+                				<li class="contact-social-item">
+                  					<a href="mailto:aurocana@hotmail.com" class="contact-social-link email-link" aria-label="Email" target="_blank">
+                    					<i aria-hidden="true" class="fas fa-envelope contact-social-icon"></i>aurocana.ach@gmail.com
+                 					 </a>
+               					</li>
+              				</ul>
+            			</section>
+          			</section>
+          			<section class="contact-column">
+            			<h2 class="section-title">Escribeme</h2>
+            			<form action="https://submit-form.com/form_v1_kDk1IXiwMB7ih5gAHKAYsekg" method="POST" class="contact-form">
+              				<div class="input-name-wrapper">
+                				<div class="form-control">
+                  					<label for="firstname">Nombre (*)</label>
+                  					<input type="text" name="Nombre" id="firtsname" class="input-firtsname input-control" placeholder="Aqu&iacute; tu nombre" aria-label="Nombre" required/>
+                  					<i class="far fa-times-circle icon-invalid" aria-hidden="true"></i>
+                  					<i class="far fa-check-circle icon-valid" aria-hidden="true"></i>
+                				</div>
+               					<div class="form-control">
+                  					<label for="lastname">Apellido (*)</label>
+                  					<input type="text" name="Apellido" id="lastname" class="input-lastname input-control" placeholder="Aqu&iacute; tu apellido" aria-label="Apellido" required/>
+                  					<i class="far fa-times-circle icon-invalid" aria-hidden="true"></i>
+                  					<i class="far fa-check-circle icon-valid" aria-hidden="true"></i>
+               					</div>
+              				</div>
+              				<div class="form-control">
+                				<label for="email">Email (*)</label>
+                				<input type="email" name="Email" id="email" class="input-control" placeholder="Aqu&iacute; tu email" aria-label="Email" required/>
+                				<i class="far fa-times-circle icon-invalid" aria-hidden="true"></i>
+                				<i class="far fa-check-circle icon-valid" aria-hidden="true"></i>
+              				</div>
+              				<div class="form-control">
+                				<label for="message">Mensaje (*)</label>
+                				<textarea name="Mensaje" id="message" cols="30" rows="10" class="input-control" placeholder="Escribeme tu mensaje aqu&iacute;" aria-label="Mensaje" required></textarea>
+                				<i class="far fa-times-circle icon-invalid" aria-hidden="true"></i>
+                				<i class="far fa-check-circle icon-valid" aria-hidden="true"></i>
+              				</div>
+              				<button type="submit" class="contact-send-btn button">Enviar</button>
+            			</form>
+          			</section>
+        		</div>
+      		</div>
+    	</section>
+    	<!-- ##### Fin Sección Contacto ##### -->
+
+    	<!-- ##### Comienzo Footer ##### -->
+    	<footer>
+      		<!-- Navegación footer -->
+      		<nav class="footer-nav">
+        		<ul class="footer-nav-menu">
+          			<li class="footer-nav-item"><a href="#acercade" class="footer-nav-link">INICIO</a></li>
+          			<li class="footer-nav-item"><a href="#areasdesarrollo" class="footer-nav-link">AREAS DE CONOCIMIENTO</a></li>
+          			<li class="footer-nav-item"><a href="#proyectos" class="footer-nav-link">PROYECTOS</a></li>
+          			<li class="footer-nav-item"><a href="#contacto" class="footer-nav-link">CONTACTAME</a></li>
+        		</ul>
+      		</nav>
+      		<!--Enlaces RRSS footer -->
+      		<ul class="footer-social-links">
+        		<li class="footer-social-item">
+                	<a href="https://wa.link/kqy36f" class="footer-social-link whatsapp-link" aria-label="WhattsApp" target="_blank">
+                    	<i class="fab fa-whatsapp footer-social-icon"></i>
+                	</a>
+                </li>
+        		<li class="footer-social-item">
+          			<a href="https://www.linkedin.com/in/aurora-canales-750520214" class="footer-social-link linkedin-link" aria-label="Linkedin" target="_blank">
+                    	<i class="fab fa-linkedin-in footer-social-icon"></i>
+                    </a>
+        		</li>
+                <li class="footer-social-item">
+          			<a href="https://github.com/aurocana" class="footer-social-link github-link" aria-label="Github" target="_blank">
+                    	<i class="fab fa-github-alt footer-social-icon"></i>
+                    </a>
+        		</li>
+        		
+        		<li class="footer-social-item">
+          			<a href="mailto:aurocana@hotmail.com" class="footer-social-link email-link" aria-label="Email" target="_blank">
+                    	<i class="fas fa-envelope footer-social-icon"></i>
+                    </a>
+        		</li>
+      		</ul>
+            <!--Fin enlaces RRSS footer-->
+      		Desarrollado por Aurora Canales
+    	</footer>
+    	<!--Fin Footer-->
+  	</body>
+</html>
